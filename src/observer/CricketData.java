@@ -9,7 +9,7 @@ public class CricketData implements Subject {
 	
 	ArrayList<Observer> observerlist;
 	
-	CricketData(){
+	public CricketData(){
 		observerlist = new ArrayList<Observer>();
 	}
 
